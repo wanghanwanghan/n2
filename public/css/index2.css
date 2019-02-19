@@ -1,0 +1,85 @@
+#wai_head_top {
+    height: 40px;
+}
+.nav {
+    width: 100%;
+    background-color: #FAFCFF;
+}
+.nav ul {
+    width: 100%;
+    display: block;
+}
+.nav ul li {
+    float: left;
+    width: 16.6%;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FAFCFF;
+}
+.nav ul li a.on_line {
+    background: url(http://static.iissbbs.com/wap/chinaiiss_touch/v1.0/images/lan.png) repeat-x left bottom;
+    color: #315F9F;
+}
+.nav ul li a {
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    font-family: "微软雅黑";
+    color: #666;
+}
+.list_ad{
+    border-bottom: 1px solid #eeeeee;
+    margin: 5px;
+    overflow: hidden;
+}
+.list_ad_1{
+    margin: 5px;
+    margin-left:0px;
+}
+.clear {
+    clear: both;
+}
+.chakan {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.chakan a { background-color: #eef5ff; color: #105ea8; display: block; font-family: "微软雅黑"; font-size:15px; height:40px; line-height:40px; width: 100%; }
+
+.zui {
+    width: 135px;
+    height: 48px;
+    background: url(http://static.iissbbs.com/wap/chinaiiss_touch/v1.0/images/zui.png?21) no-repeat left center;
+    background-size: 120px 17px;
+    float: left;
+    margin-left: 5px;
+}
+#warp {
+    background-image: none;
+    background-color: #EBF7FF;
+}
+#top {
+    background: url(http://static.iissbbs.com/wap/chinaiiss_touch/v1.0/images//top_bg0.jpg?1) no-repeat scroll center top;
+    margin: 0 auto;
+    width: 100%;
+}
+#logo img{ width:100%; height:100%;}
+#logo{ float: left; height: 30px; margin: 10px 5px 8px 12px; width:93px; }
+
+.hots_pic a{font-family: "PingHei", STHeitiSC-Light, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; font-size:20px; line-height:24px;}
+.big_tu h2{color: #222;font-family: 'STHeiti', 'Microsoft YaHei', 'Helvetica', 'Arial', sans-serif;font-size:20px;line-height:24px; padding-top:15px; padding-bottom:5px;}
+.pic_p h2 a {font-family: "PingHei", STHeitiSC-Light, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; font-size:20px; line-height: 23px; color: #222; text-align: left;}
+
+#bg{width:100%;height:100%;top:0px;left:0px;position:absolute;filter: Alpha(opacity=60);opacity:0.6; background:#000000; z-index:100;}
+.tankuang{ width:300px; height:200px;display:block; background:url(http://static.iissbbs.com/wap/chinaiiss_touch/images/tan_k.png) no-repeat left top; background-size:100%; position:absolute; z-index:999; left:50%; margin-left:-150px; top:50%; margin-top:-100px;}
+.close a{ width:20px; height:20px; background:url(http://static.iissbbs.com/wap/chinaiiss_touch/images/close.png) no-repeat left top; position:absolute; right:10px; top:8px; background-size:20px 20px;}
+.xiazai_btn a{ width:100px; height:37px; display:block; background:url(http://static.iissbbs.com/wap/chinaiiss_touch/images/xiazai_btn.png) no-repeat left top; background-size:100px 37px; margin:0px auto; margin-top:95px;}
+
+.hot_nr_nobottom {
+    margin: 0 auto;
+    padding-bottom: 15px;
+    position: relative;
+    width: 94%;
+    padding-top: 15px;
+}
