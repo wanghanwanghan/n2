@@ -1,187 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-<meta content="telephone=no" name="format-detection">
-<title>邓丽君被成龙玩死惊人真相 内容太惊人</title>
-<meta name="keywords" content="" />
-<meta name="description" content="邓丽君被成龙玩死惊人真相 内容太惊人" />
-<link rel="stylesheet" type="text/css" href="http://mipcache.bdstatic.com/static/mipmain-v1.0.1.css">
-<link href="http://static.iissbbs.com/wap/chinaiiss_touch/style/mcss.v3.3.css?71" rel="stylesheet" type="text/css" />
-<link href="http://static.iissbbs.com/wap/chinaiiss_touch/style/lun.css?2" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://static.iissbbs.com/wap/chinaiiss_touch/js/jquery.js"></script>
-<script type="text/javascript" src="http://static.iissbbs.com/wap/chinaiiss_touch/js/slide.js"></script>
-<script type="text/javascript" src="http://static.iissbbs.com/wap/chinaiiss_touch/js/home.js?11"></script>
-
-
-
-<script>
-
-var browser={
-	versions:function(){
-		   var u = navigator.userAgent, app = navigator.appVersion;
-		   return {//移动终端浏览器版本信息
-				trident: u.indexOf('Trident') > -1, //IE内核
-				presto: u.indexOf('Presto') > -1, //opera内核
-				webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
-				gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
-				mobile: !!u.match(/AppleWebKit.*Mobile.*/)||!!u.match(/AppleWebKit/), //是否为移动终端
-				ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
-				android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
-				iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
-				iPad: u.indexOf('iPad') > -1, //是否iPad
-				webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
-				qq:u.indexOf('MQQBrowser') > -1,
-				uc:u.indexOf('UCBrowser') > -1,
-			};
-		 }(),
-		 language:(navigator.browserLanguage || navigator.language).toLowerCase()
-}
-function open_download()
-{
-	$("#TB_overlay").show();
-	$(".xiazai_p").show();
-	_czc.push(["_trackEvent","延伸图集","显示下载浮层","显示下载浮层"]);
-}
-function close_download()
-{
-	$("#TB_overlay").hide();
-	$(".xiazai_p").hide();
-}
-$(document).ready(function(){
-	$("#page_guid").click(function(){
-		$("#page_list").toggle();
-	});
-	$("#TB_overlay").click(function(){
-		close_download();
-	});
-	if(browser.versions.android){
-		$(".zhengwen img").each(function(){
-			$(this).parent().attr('style','text-align:center; position:relative;');
-			var img_src = $(this).attr('src');
-			$(this).parent().html('<a href="javascript:open_download();"><b class="tuji">延伸图集</b><img border="0" src="'+img_src+'" /></a>');
-		});
-	}
-});
-var bottom_div_status = 0;
-window.onscroll = function(){
-	var scrollTop = document.body.scrollTop || document.documentElement.scrollTop || 0;
-		
-	var vtop = $(document).scrollTop();
-    var dheight = $(window).height();
-	if(vtop > dheight){
-		$(".fanhui").show();
-	}else{
-		$(".fanhui").hide();
-	}
-	var titleheight = $('.zhengwen').offset().top;
-	if(vtop > titleheight && bottom_div_status == 0){
-		$('#bottom_div').show();
-	}else{
-		$('#bottom_div').hide();
-	}
-}
-
-
-</script>
-
-<style type="text/css">
-html {
-    background: #fff;
-    font-family: 'PingFangSC','STHeiti','Microsoft YaHei','Helvetica','Arial',sans-serif;
-}
-.zhengwen p{
-	color:#000;
-	font-size:18px;
-	padding-bottom:16px;
-	line-height:27px;
-	font-family: 'PingFangSC','STHeiti','Microsoft YaHei','Helvetica','Arial',sans-serif;
-	letter-spacing:1px;
-}
-.infeedAlbum li img {
-    height: 85px;
-}
-.timu_01 h2 {font-family:"微软雅黑";font-size: 22px;color:#333;text-align:left;line-height: 1.45;padding-bottom:5px;font-weight: 600;}
-.tuiguang{background: none repeat scroll 0 0 #FFF;padding:0px;line-height: 28px;}
-.fix{width:95%}
-.fanhui a {bottom: 120px;}
-.timu_01 { border-bottom:0px; padding-bottom:0px; }
-.zhengwen { padding-top:10px;text-align:justify;}
-/*2017-03-14关键词添加样式*/
-.gjc_list{ text-align:left; padding-top:15px; padding-bottom:10px; border-bottom:1px dashed #D2D2D2;}
-.gjc_list p{ color:#666; line-height:24px;}
-.gjc_list p span{ color:#338DE9}
-.gjc_list h2{ color:#333333; font-family:"微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif; font-size:18px; font-weight:bolder; padding-bottom:6px;}
-.zhengwen p a{ color:#338EE9; text-decoration:underline;}
-.zhengwen p{line-height:27px;padding-bottom: 16px;}
-.gjc{ text-align:left;}
-.gjc a{ padding:2px 10px; background-color:#EBEDF3; color:#618BD2; display:block; float:left;
-border-radius:5px;
--moz-border-radius:5px;
--webkit-border-radius:5px;
-margin-right:7px;
-margin-top:10px;
-font-size:14px;
-}
-/*翻页*/
-.pages a,.pages span { background: #fff none repeat scroll 0 0; border: 1px solid #ddd; color: #666; display: inline-block; font-size: 18px; width: 30%;}
-.pages span i { background-image: url("http://static.iissbbs.com/wap/chinaiiss_touch/images/icon_arron_down_2.png"); background-position: 50% center; background-repeat: no-repeat; background-size: 18px 18px; display: inline-block; height: 10px; width: 10px; }
-#pages { position: relative; }
-.page { margin: 15px 0; }
-.page a { background: #f2f3f5 none repeat scroll 0 0; border: 1px solid #dddddd; border-radius: 5px; color: #646465; float: left; font-size: 16px; margin-bottom: 10px; margin-left: 10px; padding: 8px 11px; }
-.page a.first { background: #cc0000 none repeat scroll 0 0; color: #fff; }
-.pages { line-height: 35px; margin: 10px 0; text-align: center; }
-
-#yema { left: 0; position: absolute; top: 37px; width: 100%; z-index: 1; }
-#page_list a {text-align: center; font-size: 14px; margin-top:1px;}
-#page_list li:last-child a { border-bottom: 1px solid #ddd; }
-.c333 { margin-left: 0.3em; }
-.pages .green { color: #1576BD }
-#yema ul li{ text-align:center;}
-.guanggao{ padding-top:0px; padding-bottom:5px;margin-left: -10px;}
-.pic_p1 {width:31%;height:80px;padding-right: 10px;}
-.pic_p1 img {width:100%;height:80px;}
-.hot_nr p {font-size: 12px;left: 35%;}
-
-.zhengwen p b{ display:block; width:60px; height:25px; line-height:25px; background-color:#333; position:absolute; bottom:30px; right:10px; color:#FFF; font-weight:normal; font-size:12px;}
-
-.xiazai_p{width:90%; height:340px; position:absolute; margin-top:-95px; top:40%; z-index:999;}
-.xiazai_p .close_right{ width:30px; height:30px; position:absolute; right:-40px; top:-10px;z-index:9999;}
-#TB_overlay { height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index:998; }
-.TB_overlayBG { background-color: #000000; opacity: 0.45; filter: Alpha(opacity=45); /* IE */ -moz-opacity:0.85; /* FF 主要是为了兼容老版本的FF */ }
-.image_index span{background-image:url('');}
-.timu_01 h2 {font-family: "PingHei", STHeitiSC-Light, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;font-size: 22px;color:#333;text-align:left;line-height: 1.45;padding-bottom:5px;font-weight: bold;}
-
-</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+	<meta content="telephone=no" name="format-detection">
+	<title>{{$data['artarr']->subject}}</title>
+	<meta name="keywords" content="{{isset($data['artarr']->keywords)?$data['artarr']->keywords:''}}" />
+	<meta name="description" content="{{ !empty($data['artarr']->summary) ? $data['artarr']->summary : $data['artarr']->subject }}" />
+	<link rel="stylesheet" type="text/css" href="http://mipcache.bdstatic.com/static/mipmain-v1.0.1.css?{{$data['js_css_ver']}}">
+	<link href="http://static.iissbbs.com/wap/chinaiiss_touch/style/mcss.v3.3.css?{{$data['js_css_ver']}}" rel="stylesheet" type="text/css" />
+	<link href="http://static.iissbbs.com/wap/chinaiiss_touch/style/lun.css?{{$data['js_css_ver']}}" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js?{{$data['js_css_ver']}}"></script>
+	<script type="text/javascript" src="http://static.iissbbs.com/wap/chinaiiss_touch/js/slide.js?{{$data['js_css_ver']}}"></script>
+	<script type="text/javascript" src="http://static.iissbbs.com/wap/chinaiiss_touch/js/home.js?{{$data['js_css_ver']}}"></script>
+	<link href="{{asset('css/n2_tem_1.css')}}?{{$data['js_css_ver']}}" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="{{asset('js/n2_tem_1_head.js')}}?{{$data['js_css_ver']}}"></script>
 </head>
 <body>
 
 <script>
-//n2.iissbbs.com 百度统计 9.18 add
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?afdc81d7452760d952eb71cf6b5074eb";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
+    //n1.iissbbs.com 百度统计 9.18 add
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?afdc81d7452760d952eb71cf6b5074eb";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
 </script>
-
 
 <div style="display:none;" >n1 h5.uc v2.0 0.1 欧朋百度</div>
 <div id="TB_overlay" style="display:none;" class="TB_overlayBG"></div>
 <div class="xiazai_p" style="display:none;position: fixed;">
-<a href="javascript:close_download();" class="close_right"><img src="http://static.iissbbs.com/wap/chinaiiss_touch/images/close01.png"></a>
+<a href="javascript:close_download();" class="close_right"><img src="http://static.iissbbs.com/wap/chinaiiss_touch/images/close01.png?{{$data['js_css_ver']}}"></a>
 <div>
-<!-- 9.7 旧广告备份 
-<script type="text/javascript" src="//baiduwapjs1.chinaiiss.com/dyquueuux.js"></script>
--->
-<!-- 9.7 新广告备份
-<script type="text/javascript" src="//baiduwapjs1.chinaiiss.com/production/site/zhh3yy.js?dyqvn=zxen"></script>
--->
-	<!-- 2018-10-10
-	<script type="text/javascript" src="//baiduwapjs1.chinaiiss.com/production/res/obwp.js?xs=kppbhhh"></script>-->
 
 </div>
 </div>
@@ -197,10 +49,10 @@ var _hmt = _hmt || [];
 	<div id="wai_head_top" class="header_h">
 		<div class="nav_top" id="head_top02">
 				<div class="down_icon ">
-					<a onclick="showWin();" href="javascript:void(0);"><img src="http://static.iissbbs.com/wap/chinaiiss_touch/images/download.png"></a>
+					<a onclick="showWin();" href="javascript:void(0);"><img src="http://static.iissbbs.com/wap/chinaiiss_touch/images/download.png?{{$data['js_css_ver']}}"></a>
 				</div>
 				<h2 class="p_dialoghead_tit">
-					<a href="javascript:void(0);"><img src="http://static.iissbbs.com/wap/chinaiiss_touch/v1.0/images/text_logo.png?1025" style="vertical-align: middle;border: 0;width:76px;height:44px;"></a>
+					<a href="javascript:void(0);"><img src="http://static.iissbbs.com/wap/chinaiiss_touch/v1.0/images/text_logo.png?{{$data['js_css_ver']}}" style="vertical-align: middle;border: 0;width:76px;height:44px;"></a>
 				</h2>
 				<div class="logo_pic"></div>
 				<div class="left_fanhui">
@@ -209,49 +61,59 @@ var _hmt = _hmt || [];
 		</div>
 	</div>
 <div class="clear"></div>
+
 <div class="list_text_01">
+
 	<div class="list_text_nr">
 		<div class="timu_01">
 			<div class="Blank"></div>
-			<h2>邓丽君被成龙玩死惊人真相 内容太惊人</h2>
-			<p>2018-05-02 15:34:30   新浪博客</p>
+			<h2>{{$data['artarr']->subject}}</h2>
+			<p>{{date('Y-m-d H:i:s',$data['artarr']->pubdate)}}   {{$data['artarr']->source}}</p>
 		</div>
 		<!-- 标题下广告 -->
 		<div class="tuiguang" style="margin-left: -10px;padding-bottom:10px;">
 			<script type="text/javascript" src="//baidujs1.iissbbs.com/common/wuevj.js?gb=taktdhc"></script>
-
 		</div>
 		<div class="zhengwen">
-		<p align="left">片中，成龙全裸着上身，与丰满性感的米兰在床上接吻、相拥、做出一次次热烈火爆的动作，演绎着男女间的情事。在这个聊得沸沸扬扬的话题后，成龙大哥也坦诚地回应了此事。偶像明星当道的年代，谁不抓住机会多博些镜头，求得出人头地呢。</p><p align="left"><strong>第八大丑闻：成龙私生女之谜</strong></p><p><strong>成龙与吴绮莉的非婚生女儿，绰号小龙女。</strong>吴绮莉与成龙的初次相识是在一个派对上，成龙主动搭讪，吴绮莉受宠若惊。1999年，成龙和吴绮莉留下了一张在公共场合十分亲昵的照片。</p><p style="text-align: center"><img border="0" src="http://images.iissbbs.com/attachment/article/201711/28/thumb/204754_144.jpg" /></p><script type="text/javascript" src="//baidujs1.iissbbs.com/site/g7aon.js?bwovf=oyff"></script><p>他说，与吴绮莉只是异性兄妹，但随后，狗仔拍到成龙深夜送吴绮莉回家的照片。转眼快到成龙生日，吴绮莉自告奋勇要为成龙张罗。但不久之后，吴绮莉预产期公开，热心人一番推算惊讶发现，播种期正是在成龙生日前后。</p>
+			{!! $data['messagearr'] !!}
 		</div>
 		<div class="clear"></div>
 		<div class="pages" id="pages" style="">
-            <div class="pages"><a title="上一页" href="http://n2.iissbbs.com/touch_h5/20180502/5874931_1.html">上一页</a><span id="page_guid" class="c333"><code class="green">3</code>/8<i></i></span> <a title="下一页" class="green" data-clipboard-action="copy" data-clipboard-target="#foo" href="http://n2.iissbbs.com/touch_h5/20180502/5874931_3.html">下一页</a></div>
-            <div id="yema">
-                <ul id="page_list" style="display:none;">
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/1">第1页</a></li>
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/2">第2页</a></li>
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/3">第3页</a></li>
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/4">第4页</a></li>
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/5">第5页</a></li>
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/6">第6页</a></li>
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/7">第7页</a></li>
-										<li><a href="http://n2.iissbbs.com/touch/uc/5874931/8">第8页</a></li>
-					
+			<div class="pages">
+				<a title="上一页" href="{{$data['previous']}}">上一页</a>
+				<span id="page_guid" class="c333">
+					<code class="green">{{$data['num']}}</code>/{{$data['artarr']->number}}
+					<i></i>
+				</span>
+
+				@if ($data['artarr']->number != $data['num']+1)
+					<a title="下一页" class="green" data-clipboard-action="copy" data-clipboard-target="#foo" href="{{$data['next']}}">下一页</a>
+				@else
+					<a title="下一页" class="green" data-clipboard-action="copy" data-clipboard-target="#foo" href="{{$data['lasturl']}}">下一页</a>
+				@endif
+
+			</div>
+			<div id="yema">
+				<ul id="page_list" style="display:none;">
+
+					@foreach($data['pages'] as $page)
+						<li><a href="http://n1.iissbbs.com/touch/{{$data['template']}}/{{$data['artarr']->artid}}/{{$page}}">第{{$page}}页</a></li>
+					@endforeach
+
 				</ul>
-            </div>
-        </div>
+			</div>
+		</div>
 		<div class="guanggao">
 			<!-- 分页广告-->
 			<script type="text/javascript" src="//baidujs1.iissbbs.com/production/3kk8.js?avnuex=bbr"></script>
 
 		</div>
-		
-        
-		
+
+
+
 		<div class="clear"></div>
 	</div>
-	
+
 	<div class="hot_new">
 		<div class="block_ty">
 			<h2>精彩推荐</h2>
@@ -291,6 +153,7 @@ var _hmt = _hmt || [];
 			</div>
 		</div>
 	</div>
+
 	<!--标题下广告2-->
 	<div  class="tuiguang2" style="margin-left: -10px;">
 		<script type="text/javascript" src="//baidujs1.iissbbs.com/common/wuevj.js?gb=taktdhc"></script>
@@ -303,28 +166,28 @@ var _hmt = _hmt || [];
 			<div id="slide_image_w">
 				<div style="overflow:hidden;" id="slide_image">
 					<ul>
-							<li>
+						<li>
 							<!-- 12-15 新增广告 底部大图1-->
 
-							</li>
-							<li>
+						</li>
+						<li>
 							<!-- 12-15 新增广告 底部大图2-->
 
-							</li>
-							
-							<li>
+						</li>
+
+						<li>
 							<!-- 12-15 新增广告 底部大图3-->
 
-							</li>
-							<li>
+						</li>
+						<li>
 							<!-- 12-15 新增广告 底部大图4-->
 
-							</li>
-							<li>
+						</li>
+						<li>
 
 							<!-- 12-15 新增广告 底部大图5 -->
 
-							</li>
+						</li>
 					</ul>
 				</div>
 				<div class="image_index">
@@ -337,83 +200,87 @@ var _hmt = _hmt || [];
 			</div>
 		</div>
 	</div>
-	
+
 	<style type="text/css">
-/*焦点图*/
-.top_left { margin: 0 auto; }
-#slide_image_w {position: relative;overflow: hidden; }
-#slide_image {}
+		/*焦点图*/
+		.top_left { margin: 0 auto; }
+		#slide_image_w {position: relative;overflow: hidden; }
+		#slide_image {}
 
-#slide_image li { display: table-cell;}
+		#slide_image li { display: table-cell;}
 
-.image_index span.current { color: #FFFFFF; background-position: left bottom; }
+		.image_index span.current { color: #FFFFFF; background-position: left bottom; }
 
 	</style>
-	
+
 	<script type="text/javascript">
 
-	var maxwidth = $(document.body).width();
-//	var maxheight =340;
-	var maxheight =200;
+        var maxwidth = $(document.body).width();
+        //	var maxheight =340;
+        var maxheight =200;
 
-	jQuery(".top_left").width(maxwidth);
-	jQuery(".top_left").css({'height':maxheight});
-	
-	jQuery('#slide_image_w').width(maxwidth);
-	jQuery('#slide_image_w').css({'height':maxheight});
-	
-	jQuery('#slide_image').width(maxwidth);
-	jQuery('#slide_image').css({'height':maxheight});
-	
-	jQuery('#slide_image li').width(maxwidth);
+        jQuery(".top_left").width(maxwidth);
+        jQuery(".top_left").css({'height':maxheight});
+
+        jQuery('#slide_image_w').width(maxwidth);
+        jQuery('#slide_image_w').css({'height':maxheight});
+
+        jQuery('#slide_image').width(maxwidth);
+        jQuery('#slide_image').css({'height':maxheight});
+
+        jQuery('#slide_image li').width(maxwidth);
 
 	</script>
-		
 </div>
 
 <!--底部广告  欧朋百度 用图下1-->
 <div style="margin-top:-10px;height: 230px;">
 	<script type="text/javascript" src="//baidujs1.iissbbs.com/site/g7aon.js?bwovf=oyff"></script>
-
 </div>
 
 <!--底部悬浮广告-->
 <div id="bottom_div" style="position:fixed;bottom: 0px;z-index:999999;text-align: center;width:100%;overflow:hidden;height:110px;">
 	<!-- 2019-1-8 欧朋百度 使用内容图片1-->
 	<script type="text/javascript" src="//baidujs1.iissbbs.com/site/g7aon.js?bwovf=oyff"></script>
-
-
 	<div id="adjd0.22147364163056737cls" style="display: block; position: absolute; right: 0px; top: 1px; height: 11px; line-height: 12px; width: 18px; background: rgb(232, 232, 232); font-size: 10px; text-align: center; z-index: 2147483647; cursor: pointer;" onclick="$('#bottom_div').hide();bottom_div_status=1;">X</div>
 </div>
 
 <label style="display:none;">
-	<!-- n2.iissbbs.com cnzz 2019-1-3 -->
+	<!-- n1.iissbbs.com cnzz 2019-1-3 -->
 	<script src="https://s23.cnzz.com/z_stat.php?id=1275845828&web_id=1275845828" language="JavaScript"></script>
-
 </label>
 
-<script>var imageurls= ''; var wapurl= 'http://n2.iissbbs.com';var source_dir='http://static.iissbbs.com/wap/chinaiiss_touch';var artnumber = '8';var artid = '5874931'</script>
+<script>
+	var imageurls= '{{$data['image1url']}}';
+	var wapurl= 'http://n2.iissbbs.com';
+	var source_dir='http://static.iissbbs.com/wap/chinaiiss_touch';
+	var artnumber = '{{$data['artarr']->number}}';
+	var artid = '{{$data['artarr']->artid}}'
+</script>
 <script type="text/javascript">
-
 $("#tuijian_ad").html($('#div_tuijian').html());
 $(document).ready(function(){
 	$('#number').attr('value',0);
 	var maxwidth = $(document.body).width();
 	$(".zhengwen img").attr('width',maxwidth);
-	
+
 	$(".close").click(function(){
 		$("#bg").hide();
 		$(".tankuang").hide();
 	});
-	
+
 	$("#page_guid").click(function(){
 		$("#page_list").toggle();
 	});
-	$.getJSON(wapurl+"/do.php?callback=?", {inajax:1,do:'touch', ac:'jingcai',vtype:'touch'}, function(json){
+
+	//wapurl+"/do.php?callback=?", {inajax:1,do:'touch', ac:'jingcai',vtype:'touch'}
+	$.getJSON("/jingcai", {}, function(json)
+	{
 		var len = json.data.length;
 		var html = '';
 		for(var i=0;i<2;i++){
 			var ad = json.data[i];
+
 			html +='<div class="hot_nr">';
 			html +='<div class="pic_p1">';
 			html +='<a href="'+ad.url+'" onclick="adclick('+ad.id+')"><img src="'+ad.pic+'"></a>';
@@ -550,7 +417,7 @@ var param = $.extend(param, request);
 
 //$.getJSON(wapurl+"/do.php?callback=?", {inajax:1,do:'touch', ac:'get_coopertion_advert',vtype:'touch', testflag:'test'}, function(json){
 //$.getJSON('http://n2.iissbbs.com'+"/do.php?callback=?", {inajax:1,do:'touch', ac:'get_coopertion_advert',vtype:'touch', testflag:'test', area:area}, function(json){
-$.getJSON('http://n2.iissbbs.com'+"/do.php?callback=?", param, function(json){
+$.getJSON('http://n1.iissbbs.com'+"/do.php?callback=?", param, function(json){
 
 ////	<!--标题下广告-->
 //	create_script('tuiguang', json.data['biao_ti']['src'], 'class_name');
@@ -630,7 +497,6 @@ function create_script( name, script_url, type ){
 }
 
 
-
 </script>
 
 <!-- hbouc -->
@@ -638,4 +504,5 @@ function create_script( name, script_url, type ){
 
 <script src="https://mipcache.bdstatic.com/static/mipmain-v1.0.2.js"></script>
 
-</body></html>
+</body>
+</html>

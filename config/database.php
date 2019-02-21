@@ -49,6 +49,22 @@ return [
             'engine' => null,
         ],
 
+        //广告页那些个邓丽君成龙文章
+        'mobile' => [
+            'driver' => 'mysql',
+            'host' => '183.136.232.231',
+            'port' => '3306',
+            'database' => 'mobile',
+            'username' => 'chinabody',
+            'password' => 'chinaiiss(!@#)',
+            'unix_socket' => '',
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
+        ],
+
         /////////////////////////////////以下全没用，但是别删，万一需要参考呢/////////////////////////////////
         'sqlite' => [
             'driver' => 'sqlite',

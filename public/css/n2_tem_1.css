@@ -1,0 +1,65 @@
+html {
+    background: #fff;
+    font-family: 'PingFangSC','STHeiti','Microsoft YaHei','Helvetica','Arial',sans-serif;
+}
+.zhengwen p{
+    color:#000;
+    font-size:18px;
+    padding-bottom:16px;
+    line-height:27px;
+    font-family: 'PingFangSC','STHeiti','Microsoft YaHei','Helvetica','Arial',sans-serif;
+    letter-spacing:1px;
+}
+.infeedAlbum li img {
+    height: 85px;
+}
+.timu_01 h2 {font-family:"微软雅黑";font-size: 22px;color:#333;text-align:left;line-height: 1.45;padding-bottom:5px;font-weight: 600;}
+.tuiguang{background: none repeat scroll 0 0 #FFF;padding:0px;line-height: 28px;}
+.fix{width:95%}
+.fanhui a {bottom: 120px;}
+.timu_01 { border-bottom:0px; padding-bottom:0px; }
+.zhengwen { padding-top:10px;text-align:justify;}
+/*2017-03-14关键词添加样式*/
+.gjc_list{ text-align:left; padding-top:15px; padding-bottom:10px; border-bottom:1px dashed #D2D2D2;}
+.gjc_list p{ color:#666; line-height:24px;}
+.gjc_list p span{ color:#338DE9}
+.gjc_list h2{ color:#333333; font-family:"微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif; font-size:18px; font-weight:bolder; padding-bottom:6px;}
+.zhengwen p a{ color:#338EE9; text-decoration:underline;}
+.zhengwen p{line-height:27px;padding-bottom: 16px;}
+.gjc{ text-align:left;}
+.gjc a{ padding:2px 10px; background-color:#EBEDF3; color:#618BD2; display:block; float:left;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    margin-right:7px;
+    margin-top:10px;
+    font-size:14px;
+}
+/*翻页*/
+.pages a,.pages span { background: #fff none repeat scroll 0 0; border: 1px solid #ddd; color: #666; display: inline-block; font-size: 18px; width: 30%;}
+.pages span i { background-image: url("http://static.iissbbs.com/wap/chinaiiss_touch/images/icon_arron_down_2.png"); background-position: 50% center; background-repeat: no-repeat; background-size: 18px 18px; display: inline-block; height: 10px; width: 10px; }
+#pages { position: relative; }
+.page { margin: 15px 0; }
+.page a { background: #f2f3f5 none repeat scroll 0 0; border: 1px solid #dddddd; border-radius: 5px; color: #646465; float: left; font-size: 16px; margin-bottom: 10px; margin-left: 10px; padding: 8px 11px; }
+.page a.first { background: #cc0000 none repeat scroll 0 0; color: #fff; }
+.pages { line-height: 35px; margin: 10px 0; text-align: center; }
+
+#yema { left: 0; position: absolute; top: 37px; width: 100%; z-index: 1; }
+#page_list a {text-align: center; font-size: 14px; margin-top:1px;}
+#page_list li:last-child a { border-bottom: 1px solid #ddd; }
+.c333 { margin-left: 0.3em; }
+.pages .green { color: #1576BD }
+#yema ul li{ text-align:center;}
+.guanggao{ padding-top:0px; padding-bottom:5px;margin-left: -10px;}
+.pic_p1 {width:31%;height:80px;padding-right: 10px;}
+.pic_p1 img {width:100%;height:80px;}
+.hot_nr p {font-size: 12px;left: 35%;}
+
+.zhengwen p b{ display:block; width:60px; height:25px; line-height:25px; background-color:#333; position:absolute; bottom:30px; right:10px; color:#FFF; font-weight:normal; font-size:12px;}
+
+.xiazai_p{width:90%; height:340px; position:absolute; margin-top:-95px; top:40%; z-index:999;}
+.xiazai_p .close_right{ width:30px; height:30px; position:absolute; right:-40px; top:-10px;z-index:9999;}
+#TB_overlay { height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index:998; }
+.TB_overlayBG { background-color: #000000; opacity: 0.45; filter: Alpha(opacity=45); /* IE */ -moz-opacity:0.85; /* FF 主要是为了兼容老版本的FF */ }
+.image_index span{background-image:url('');}
+.timu_01 h2 {font-family: "PingHei", STHeitiSC-Light, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;font-size: 22px;color:#333;text-align:left;line-height: 1.45;padding-bottom:5px;font-weight: bold;}

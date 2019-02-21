@@ -87,7 +87,7 @@
         });
 
 		//  wapurl+"/do.php?callback=?", {inajax:1,do:'touch', ac:'zhongzhuan',vtype:'touch'}
-        $.getJSON("http://n2.iissbbs.com/zhongzhuan", {}, function(json)
+        $.getJSON("/zhongzhuan", {}, function(json)
 		{
             var html = '';
 
