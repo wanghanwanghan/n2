@@ -67,7 +67,7 @@
 </div>
 
 <label style="display:none;">
-	<script src="https://s23.cnzz.com/z_stat.php?id=1275845828&web_id=1275845828" language="JavaScript"></script>
+	<script type="text/javascript" src="https://s96.cnzz.com/z_stat.php?id=1276278969&web_id=1276278969"></script>
 </label>
 
 </body>

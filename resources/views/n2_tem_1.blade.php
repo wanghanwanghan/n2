@@ -246,8 +246,7 @@
 </div>
 
 <label style="display:none;">
-	<!-- n1.iissbbs.com cnzz 2019-1-3 -->
-	<script src="https://s23.cnzz.com/z_stat.php?id=1275845828&web_id=1275845828" language="JavaScript"></script>
+	<script type="text/javascript" src="https://s96.cnzz.com/z_stat.php?id=1276278969&web_id=1276278969"></script>
 </label>
 
 <script>
